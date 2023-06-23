@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HOME</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <br>
+  <button id="insertMarksBtn" style="background-color: red;">Insert Marks</button>
+  <button id="viewResultsBtn" style="background-color: green;">View Results</button>
+
+  <script>
+    document.getElementById("insertMarksBtn").addEventListener("click", function() {
+      window.location.href = "add.html";
+    });
+
+    document.getElementById("viewResultsBtn").addEventListener("click", function() {
+      window.location.href = "view.php";
+    });
+  </script>
+</body>
+</html>
